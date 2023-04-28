@@ -1,6 +1,7 @@
 const Heading3 = () => {
     return (  
-        <h3>Underoverskrift</h3>
+        <h3>Spiderman: No Way
+        Home</h3>
     );
 }
  

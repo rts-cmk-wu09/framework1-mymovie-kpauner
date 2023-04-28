@@ -1,16 +1,28 @@
+import styled from 'styled-components'
 import Image from '../components/Image'
-import Heading3 from "../components/Heading3";
+import Heading from "../components/Heading";
 import MovieRating from '../components/MovieRating';
+
+const Figurestyle = styled.figure`
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+`;
+
+const StyledCardArticle = styled.article`
+    padding-block:1.4rem;
+`;
 
 const MovieCard = () => {
     return (  
-        <article>
-            <figure>
+        <StyledCardArticle>
+            <Figurestyle>
                 <Image />
-            </figure>
-            <Heading3 />
+            </Figurestyle>
+            <Heading title="Spiderman: No Way Home" size="16" as="h3" />
             <MovieRating />
-        </article>
+        </StyledCardArticle>
     );
 }
  
