@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FaFilm, FaTicketAlt, FaRegBookmark } from "react-icons/fa";
+import { FaTicketAlt, FaRegBookmark } from "react-icons/fa";
 import { FcFilmReel } from "react-icons/fc";
 
 const StyledNav = styled.nav`
@@ -20,7 +20,7 @@ background-color: white;
 const Navigation = () => {
     return (  
         <StyledNav>
-            <FcFilmReel />
+            <a href="/src/details.jsx"><FcFilmReel /></a>
             <FaTicketAlt />
             <FaRegBookmark />
         </StyledNav>

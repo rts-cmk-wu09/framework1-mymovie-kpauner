@@ -7,8 +7,8 @@ const StyledHeading = styled((props) => props.as)`
   ${(props) =>
     props.as === "h1" &&
     css`
-      /* align-self: center; */
     `}
+
 `;
 
 const Heading = (props) => {
